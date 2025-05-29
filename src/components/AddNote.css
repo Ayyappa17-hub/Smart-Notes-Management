@@ -1,0 +1,47 @@
+.add-note-form {
+  background-color: #f9f9f9;
+  padding: 25px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-note-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-note-form input,
+.add-note-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border 0.3s;
+}
+
+.add-note-form input:focus,
+.add-note-form textarea:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.add-note-form button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.add-note-form button:hover {
+  background-color: #357ABD;
+}

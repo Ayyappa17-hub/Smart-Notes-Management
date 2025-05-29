@@ -1,0 +1,44 @@
+/* client/src/components/NoteCard.css */
+.note-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 10px;
+  max-width: 300px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-date {
+  font-size: 0.9em;
+  color: gray;
+  margin-bottom: 6px;
+}
+
+.note-description {
+  font-size: 1em;
+  margin: 8px 0;
+}
+
+.note-tag {
+  font-size: 0.85em;
+  color: #1976d2;
+  font-weight: bold;
+}
+
+.note-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.pin-icon {
+  cursor: pointer;
+}
